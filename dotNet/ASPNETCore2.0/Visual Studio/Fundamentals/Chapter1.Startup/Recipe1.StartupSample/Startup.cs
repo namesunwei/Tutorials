@@ -45,27 +45,31 @@ namespace Recipe1.StartupSample
         /// <param name="loggerFactory"></param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            
+            /*
+             * Exception Middleware => StaticFiles Middleware => MVC Middleware
+             * Exceptions Middleware 作为第一个中间件，因此它可以捕获到以后的调用中发生的任何异常
+             * StaticFiles Middleware 静态文件中间件提前被调用，因此可以处理请求和短路，而无需通过剩余的组件。
+             * MVC Middleware 最后被调用。
+             */
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
             if (env.IsDevelopment())
             {   
-                //添加测试环境使用的异常处理中间件
+                //添加测试环境使用的异常处理中间件 
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
             else
             {
-                //添加其他环境下异常处理中间件
+                //Call first to catch exceptions throw in the following middleware.
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            // 添加静态文件的中间件
-            app.UseStaticFiles();
+            // Return static files and end pipeline.
             app.UseStaticFiles();
 
-            //添加使用Mvc功能的中间件
+            // Add MVC to the request pipeline.
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

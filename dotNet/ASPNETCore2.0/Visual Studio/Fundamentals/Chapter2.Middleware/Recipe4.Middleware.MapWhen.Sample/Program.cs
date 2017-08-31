@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Recipe1.Middleware.Use.Sample
+namespace Recipe4.Middleware.MapWhen.Sample
 {
     public class Program
     {

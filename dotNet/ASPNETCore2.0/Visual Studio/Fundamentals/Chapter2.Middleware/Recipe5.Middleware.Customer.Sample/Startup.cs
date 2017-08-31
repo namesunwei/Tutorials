@@ -6,26 +6,25 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Recipe5.Middleware.Customer.Sample.Middlewares;
 
-namespace Recipe1.Middleware.Use.Sample
+namespace Recipe5.Middleware.Customer.Sample
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
         }
+
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            #region app.Use()方式的中间件
-            /*
-             * 1.app.Use()方式的中间件可以承接上一个中间件，处理请求，并传递给下一个中间件。
-             */
-            app.Use(async (context, next) =>
-              {
-                  await next.Invoke();
-              });
+            #region 添加自定义中间件到请求管道
+
+            app.UseMiddleware(typeof(DisplayDateTimeMiddleware));
+
             #endregion
-            app.Run(async (context) =>
+
+            app.Run(async context =>
             {
                 await context.Response.WriteAsync("Hello World!");
             });
