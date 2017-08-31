@@ -15,19 +15,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe1.StartupSample", "Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "SampleProjects\WebApp\WebApp.csproj", "{478A998E-3216-4A49-AB59-A326D3EF5778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe1.Middleware.Run.Sample", "Fundamentals\Chapter2.Middleware\Recipe1.Middleware.Run.Sample\Recipe1.Middleware.Run.Sample.csproj", "{5D64B200-8F82-453F-B56B-FBC8987ACB45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe1.Middleware.Run.Sample", "Fundamentals\Chapter2.Middleware\Recipe1.Middleware.Run.Sample\Recipe1.Middleware.Run.Sample.csproj", "{5D64B200-8F82-453F-B56B-FBC8987ACB45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe2.Middleware.Use.Sample", "Fundamentals\Chapter2.Middleware\Recipe2.Middleware.Use.Sample\Recipe2.Middleware.Use.Sample.csproj", "{93954618-DFB2-47EB-A525-6EE4D43AC8DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe2.Middleware.Use.Sample", "Fundamentals\Chapter2.Middleware\Recipe2.Middleware.Use.Sample\Recipe2.Middleware.Use.Sample.csproj", "{93954618-DFB2-47EB-A525-6EE4D43AC8DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe3.Middleware.Map.Sample", "Fundamentals\Chapter2.Middleware\Recipe3.Middleware.Map.Sample\Recipe3.Middleware.Map.Sample.csproj", "{884F2C0A-1D72-4D42-83BB-BFF7C5976D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe3.Middleware.Map.Sample", "Fundamentals\Chapter2.Middleware\Recipe3.Middleware.Map.Sample\Recipe3.Middleware.Map.Sample.csproj", "{884F2C0A-1D72-4D42-83BB-BFF7C5976D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe3.Middleware.Map.Sample2", "Fundamentals\Chapter2.Middleware\Recipe3.Middleware.Map.Sample2\Recipe3.Middleware.Map.Sample2.csproj", "{416DC2DC-61FC-41F6-AD3F-F7850C63E703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe3.Middleware.Map.Sample2", "Fundamentals\Chapter2.Middleware\Recipe3.Middleware.Map.Sample2\Recipe3.Middleware.Map.Sample2.csproj", "{416DC2DC-61FC-41F6-AD3F-F7850C63E703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe4.Middleware.MapWhen.Sample", "Fundamentals\Chapter2.Middleware\Recipe4.Middleware.MapWhen.Sample\Recipe4.Middleware.MapWhen.Sample.csproj", "{71A008C3-74B6-4C27-933E-E5C0E9280898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe4.Middleware.MapWhen.Sample", "Fundamentals\Chapter2.Middleware\Recipe4.Middleware.MapWhen.Sample\Recipe4.Middleware.MapWhen.Sample.csproj", "{71A008C3-74B6-4C27-933E-E5C0E9280898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe6.Middleware.ExtensionMethod", "Fundamentals\Chapter2.Middleware\Recipe5.Middleware.ExtensionMethod\Recipe6.Middleware.ExtensionMethod.csproj", "{01A75706-4ECE-4B69-91E4-B7423E0006DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe5.Middleware.Customer.Sample", "Fundamentals\Chapter2.Middleware\Recipe5.Middleware.Customer.Sample\Recipe5.Middleware.Customer.Sample.csproj", "{1D06E133-B8C5-4328-84B7-E114A5C0F667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe5.Middleware.Customer.Sample", "Fundamentals\Chapter2.Middleware\Recipe5.Middleware.Customer.Sample\Recipe5.Middleware.Customer.Sample.csproj", "{1D06E133-B8C5-4328-84B7-E114A5C0F667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe6.Middleware.ExtensionMethod", "Fundamentals\Chapter2.Middleware\Recipe6.Middleware.ExtensionMethod\Recipe6.Middleware.ExtensionMethod.csproj", "{73B4F573-A7EF-4948-8CB6-23B05EDBE34B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter0.Program", "Chapter0.Program", "{1B407D1A-0027-430A-B126-B3A43E485D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe1.Program.Sample", "Fundamentals\Chapter0.Program\Recipe1.Program.Sample\Recipe1.Program.Sample.csproj", "{401B7529-30CB-45DA-A777-C77E0D824894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3.StaticFiles", "Chapter3.StaticFiles", "{0C3E3425-E669-48E8-9D71-4CE3605390E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe1.StaticFiles.UseCustomerFolder", "Fundamentals\Chapter3.StaticFiles\Recipe1.StaticFiles.UseCustomerFolder\Recipe1.StaticFiles.UseCustomerFolder.csproj", "{59F1B38D-6F6D-46BA-8E91-3D861B95D901}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,14 +71,22 @@ Global
 		{71A008C3-74B6-4C27-933E-E5C0E9280898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A008C3-74B6-4C27-933E-E5C0E9280898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A008C3-74B6-4C27-933E-E5C0E9280898}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01A75706-4ECE-4B69-91E4-B7423E0006DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01A75706-4ECE-4B69-91E4-B7423E0006DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01A75706-4ECE-4B69-91E4-B7423E0006DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01A75706-4ECE-4B69-91E4-B7423E0006DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D06E133-B8C5-4328-84B7-E114A5C0F667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D06E133-B8C5-4328-84B7-E114A5C0F667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D06E133-B8C5-4328-84B7-E114A5C0F667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D06E133-B8C5-4328-84B7-E114A5C0F667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B4F573-A7EF-4948-8CB6-23B05EDBE34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B4F573-A7EF-4948-8CB6-23B05EDBE34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B4F573-A7EF-4948-8CB6-23B05EDBE34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B4F573-A7EF-4948-8CB6-23B05EDBE34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401B7529-30CB-45DA-A777-C77E0D824894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401B7529-30CB-45DA-A777-C77E0D824894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401B7529-30CB-45DA-A777-C77E0D824894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401B7529-30CB-45DA-A777-C77E0D824894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,8 +101,12 @@ Global
 		{884F2C0A-1D72-4D42-83BB-BFF7C5976D93} = {B0F6C46A-3260-497E-8FA5-8461166A7CD9}
 		{416DC2DC-61FC-41F6-AD3F-F7850C63E703} = {B0F6C46A-3260-497E-8FA5-8461166A7CD9}
 		{71A008C3-74B6-4C27-933E-E5C0E9280898} = {B0F6C46A-3260-497E-8FA5-8461166A7CD9}
-		{01A75706-4ECE-4B69-91E4-B7423E0006DA} = {B0F6C46A-3260-497E-8FA5-8461166A7CD9}
 		{1D06E133-B8C5-4328-84B7-E114A5C0F667} = {B0F6C46A-3260-497E-8FA5-8461166A7CD9}
+		{73B4F573-A7EF-4948-8CB6-23B05EDBE34B} = {B0F6C46A-3260-497E-8FA5-8461166A7CD9}
+		{1B407D1A-0027-430A-B126-B3A43E485D17} = {5BA625D7-B2C0-45DD-B65D-A0E0A9807B8E}
+		{401B7529-30CB-45DA-A777-C77E0D824894} = {1B407D1A-0027-430A-B126-B3A43E485D17}
+		{0C3E3425-E669-48E8-9D71-4CE3605390E6} = {5BA625D7-B2C0-45DD-B65D-A0E0A9807B8E}
+		{59F1B38D-6F6D-46BA-8E91-3D861B95D901} = {0C3E3425-E669-48E8-9D71-4CE3605390E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63FE0DBD-1E65-415C-8903-8645B469BCB0}
