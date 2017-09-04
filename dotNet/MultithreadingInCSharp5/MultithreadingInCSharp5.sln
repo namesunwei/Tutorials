@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookSamples", "BookSamples", "{6F163842-D562-4244-B250-8000A1FACF4F}"
+	ProjectSection(SolutionItems) = preProject
+		BookSamples\REAMME.md = BookSamples\REAMME.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chatper1", "Chatper1", "{C542218E-30BB-4FD4-BC03-94180114A070}"
 	ProjectSection(SolutionItems) = preProject
-		Chatper1_README.txt = Chatper1_README.txt
+		BookSamples\Chapter1\Chatper1_README.md = BookSamples\Chapter1\Chatper1_README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe1", "BookSamples\Chapter1\Recipe1\Recipe1.csproj", "{7CFF5D8D-CF98-4CD1-A24C-AC21F6642AA2}"
@@ -31,6 +34,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe10", "BookSamples\Chapter1\Recipe10\Recipe10.csproj", "{5C4A9A98-FE79-4093-873E-6BD4BBEFB83A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe11", "BookSamples\Chapter1\Recipe11\Recipe11.csproj", "{514878BA-6B38-4A7F-A91D-6B89CC14BA3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chatper2", "Chatper2", "{0E9AAB23-1BB0-4A22-9FA3-51E49EEB21FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe1", "BookSamples\Chatper2\Recipe1\Recipe1.csproj", "{0EFE9D50-C47F-410E-9BDF-53C303A98223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe2", "BookSamples\Chatper2\Recipe2\Recipe2.csproj", "{6520D29F-0D0A-41F9-8869-C7872032D1E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +91,14 @@ Global
 		{514878BA-6B38-4A7F-A91D-6B89CC14BA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{514878BA-6B38-4A7F-A91D-6B89CC14BA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{514878BA-6B38-4A7F-A91D-6B89CC14BA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFE9D50-C47F-410E-9BDF-53C303A98223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFE9D50-C47F-410E-9BDF-53C303A98223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFE9D50-C47F-410E-9BDF-53C303A98223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFE9D50-C47F-410E-9BDF-53C303A98223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6520D29F-0D0A-41F9-8869-C7872032D1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6520D29F-0D0A-41F9-8869-C7872032D1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6520D29F-0D0A-41F9-8869-C7872032D1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6520D29F-0D0A-41F9-8869-C7872032D1E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +116,9 @@ Global
 		{A49B94C1-D87D-4C8D-A477-FB68A253F17B} = {C542218E-30BB-4FD4-BC03-94180114A070}
 		{5C4A9A98-FE79-4093-873E-6BD4BBEFB83A} = {C542218E-30BB-4FD4-BC03-94180114A070}
 		{514878BA-6B38-4A7F-A91D-6B89CC14BA3F} = {C542218E-30BB-4FD4-BC03-94180114A070}
+		{0E9AAB23-1BB0-4A22-9FA3-51E49EEB21FE} = {6F163842-D562-4244-B250-8000A1FACF4F}
+		{0EFE9D50-C47F-410E-9BDF-53C303A98223} = {0E9AAB23-1BB0-4A22-9FA3-51E49EEB21FE}
+		{6520D29F-0D0A-41F9-8869-C7872032D1E0} = {0E9AAB23-1BB0-4A22-9FA3-51E49EEB21FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D977E53-EB70-48BF-93A7-682E504A2415}
