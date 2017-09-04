@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading;
-
 namespace Recipe1
 {
     class Program
@@ -9,9 +8,9 @@ namespace Recipe1
         {
             var c = new Counter();
 
-            var t1 =new Thread(()=>TestCounter(c));
-            var t2 =new Thread(()=>TestCounter(c));
-            var t3 =new Thread(()=>TestCounter(c));
+            var t1 = new Thread(() => TestCounter(c));
+            var t2 = new Thread(() => TestCounter(c));
+            var t3 = new Thread(() => TestCounter(c));
 
             t1.Start();
             t2.Start();
@@ -24,11 +23,11 @@ namespace Recipe1
             System.Console.WriteLine("----------------------------");
             System.Console.WriteLine("Correct counter");
 
-            var c1 =new CounterNoLock();
+            var c1 = new CounterNoLock();
 
-            t1 =new Thread(()=>TestCounter(c1));
-            t2 =new Thread(()=>TestCounter(c1));
-            t3 =new Thread(()=>TestCounter(c1));
+            t1 = new Thread(() => TestCounter(c1));
+            t2 = new Thread(() => TestCounter(c1));
+            t3 = new Thread(() => TestCounter(c1));
 
             t1.Start();
             t2.Start();
@@ -50,7 +49,11 @@ namespace Recipe1
             }
         }
     }
-
+    abstract class CounterBase
+    {
+        public abstract void Increment();
+        public abstract void Decrement();
+    }
     class Counter : CounterBase
     {
         private int _count;
@@ -70,8 +73,8 @@ namespace Recipe1
     {
         //借助InterLocked类可以进行原子操作，无需锁定任何对象即可获取正确的结果。
         private int _count;
-        public int Count {get{return _count;}}
-        
+        public int Count { get { return _count; } }
+
         public override void Decrement()
         {
             Interlocked.Decrement(ref _count);
@@ -82,9 +85,5 @@ namespace Recipe1
             Interlocked.Increment(ref _count);
         }
     }
-    abstract class CounterBase
-    {
-        public abstract void Increment();
-        public abstract void Decrement();
-    }
+   
 }
