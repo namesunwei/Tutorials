@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3.StaticFiles", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe1.StaticFiles.UseCustomerFolder", "Fundamentals\Chapter3.StaticFiles\Recipe1.StaticFiles.UseCustomerFolder\Recipe1.StaticFiles.UseCustomerFolder.csproj", "{59F1B38D-6F6D-46BA-8E91-3D861B95D901}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe2.StaticFiles.DirectoryBrowsing", "Fundamentals\Chapter3.StaticFiles\Recipe2.StaticFiles.DirectoryBrowsing\Recipe2.StaticFiles.DirectoryBrowsing.csproj", "{BC63AFBC-4A72-48E2-9FC9-7BD7F7836343}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F1B38D-6F6D-46BA-8E91-3D861B95D901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC63AFBC-4A72-48E2-9FC9-7BD7F7836343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC63AFBC-4A72-48E2-9FC9-7BD7F7836343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC63AFBC-4A72-48E2-9FC9-7BD7F7836343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC63AFBC-4A72-48E2-9FC9-7BD7F7836343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{401B7529-30CB-45DA-A777-C77E0D824894} = {1B407D1A-0027-430A-B126-B3A43E485D17}
 		{0C3E3425-E669-48E8-9D71-4CE3605390E6} = {5BA625D7-B2C0-45DD-B65D-A0E0A9807B8E}
 		{59F1B38D-6F6D-46BA-8E91-3D861B95D901} = {0C3E3425-E669-48E8-9D71-4CE3605390E6}
+		{BC63AFBC-4A72-48E2-9FC9-7BD7F7836343} = {0C3E3425-E669-48E8-9D71-4CE3605390E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63FE0DBD-1E65-415C-8903-8645B469BCB0}
