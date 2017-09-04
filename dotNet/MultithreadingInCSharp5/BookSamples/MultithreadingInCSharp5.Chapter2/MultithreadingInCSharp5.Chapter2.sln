@@ -3,9 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe1", "Recipe1\Recipe1.csproj", "{9B9C7421-A0D3-4F26-82CC-F95741803605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe1", "Recipe1\Recipe1.csproj", "{9B9C7421-A0D3-4F26-82CC-F95741803605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe2", "Recipe2\Recipe2.csproj", "{3345F7C5-77FC-4FD8-84F8-5261E7691FB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe2", "Recipe2\Recipe2.csproj", "{3345F7C5-77FC-4FD8-84F8-5261E7691FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{119561E5-ABDD-470C-AAC3-683D731B0E33}"
+	ProjectSection(SolutionItems) = preProject
+		Chatper2_README.md = Chatper2_README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe3", "Recipe3\Recipe3.csproj", "{E7FC6113-39C8-4123-ABF4-96458F01D907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe4", "Recipe4\Recipe4.csproj", "{2F66A2EB-E0E1-4D8D-A295-59622EDFD9DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +30,14 @@ Global
 		{3345F7C5-77FC-4FD8-84F8-5261E7691FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3345F7C5-77FC-4FD8-84F8-5261E7691FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3345F7C5-77FC-4FD8-84F8-5261E7691FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FC6113-39C8-4123-ABF4-96458F01D907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FC6113-39C8-4123-ABF4-96458F01D907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FC6113-39C8-4123-ABF4-96458F01D907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FC6113-39C8-4123-ABF4-96458F01D907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F66A2EB-E0E1-4D8D-A295-59622EDFD9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F66A2EB-E0E1-4D8D-A295-59622EDFD9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F66A2EB-E0E1-4D8D-A295-59622EDFD9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F66A2EB-E0E1-4D8D-A295-59622EDFD9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
